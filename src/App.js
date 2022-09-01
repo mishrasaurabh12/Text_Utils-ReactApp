@@ -72,10 +72,10 @@ function App() {
         <Alert alert={alert} />
         <div className="container my-3">
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/about">
               <About mode={mode} />
             </Route>
-            <Route exact path="/about">
+            <Route exact path="/">
               <Textarea
                 heading="Try - TextUtils Wordcounter,Charactercounter,Remove extra spaces"
                 mode={mode}
